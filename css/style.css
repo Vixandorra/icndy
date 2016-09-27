@@ -1,8 +1,8 @@
 html, body {
-    font: normal 100% ProximaNova-light,  ProximaNova-semibold, ProximaNova-bold,
-                        Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
+    font: normal 100% "ProximaNova-light",  "ProximaNova-semibold", "ProximaNova-bold", Calibri, Candara, sans-serif;
     width: 100%;
     height: auto;
+    color: #ffffff;
 }
 
 @font-face {
@@ -19,3 +19,34 @@ html, body {
     font-family: ProximaNova-bold;
     src: url(../static/font/Proxima_Nova_Bold.otf);
 }
+
+body {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+.red {
+    color: #f84545;
+}
+
+.black {
+    color: #000;
+}
+
