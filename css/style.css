@@ -1,5 +1,21 @@
 html, body {
-    font: normal 100% ProximaNova light, , Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
+    font: normal 100% ProximaNova-light,  ProximaNova-semibold, ProximaNova-bold,
+                        Calibri, Candara, "Gill Sans", "Gill Sans MT", sans-serif;
     width: 100%;
     height: auto;
+}
+
+@font-face {
+    font-family: ProximaNova-light;
+    src: url(../static/font/Proxima_Nova_Light.otf);
+}
+
+@font-face {
+    font-family: ProximaNova-semibold;
+    src: url(../static/font/Proxima_Nova_Semibold.otf);
+}
+
+@font-face {
+    font-family: ProximaNova-bold;
+    src: url(../static/font/Proxima_Nova_Bold.otf);
 }
