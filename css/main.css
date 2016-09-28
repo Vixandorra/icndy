@@ -1,0 +1,201 @@
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 1248px;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    height: 1118px;
+    margin: 0 auto;
+}
+
+main .container .gourment {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 65.5232578%;
+    height: 617px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent),
+                url("../static/pic/gourmet-back.png") no-repeat 0%;
+    background-size: cover;
+    font-size: 1.58em;
+}
+
+main .container .both {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-flow: column wrap;
+    width: 30.7973175%;
+    height: 617px;
+}
+
+main .container .both .carhartt {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 286px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent),
+                url("../static/pic/carhartt-back.png") no-repeat 50% 90%;
+    background-size: cover;
+}
+
+main .container .both .adidas {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-end;
+    width: 100%;
+    height: 286px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent),
+                url("../static/pic/adidas-back.png") no-repeat 50% 90%;
+    background-size: cover;
+}
+
+main .container .deep10,
+main .container .palace,
+main .container .nike {
+    display: inline-flex;
+    align-self: flex-end;
+    width: 30.7973175%;
+    height: 460px;
+}
+
+main .container .deep10 {
+    justify-content: flex-start;
+    align-self: flex-end;
+    flex-direction: row;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent),
+                url("../static/pic/10deep-back.png") no-repeat 50% 90%;
+    background-size: cover;
+}
+
+main .container .palace {
+    justify-content: center;
+    align-self: flex-end;
+    flex-direction: row;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent),
+                linear-gradient(240deg, rgba(0, 0, 0, 0.8),  transparent),
+                url("../static/pic/palace-back.png") no-repeat 40% 32%;
+    background-size: 440%;
+}
+
+main .container .nike {
+    justify-content: flex-end;
+    align-self: flex-end;
+    flex-direction: row;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent),
+                url("../static/pic/nike-back.png") no-repeat 20%;
+    background-size: cover;
+}
+
+main .container .container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-content: flex-end;
+    margin: 0 auto;
+    height: 92%;
+    width: 82%;
+}
+
+main .container .gourment .container {
+    height: 94.3%;
+    width: 88.5%;
+}
+
+main .container .deep10 .container,
+main .container .palace .container,
+main .container .nike .container {
+    height: 95%;
+    width: 83%;
+}
+
+main .container .container a {
+    font-size: 1.9em;
+    word-wrap: break-word;
+    width: 90%;
+    letter-spacing: 13px;
+}
+
+main .container .deep10 .container a,
+main .container .palace .container a,
+main .container .nike .container a {
+    letter-spacing: 13px;
+    margin-right: -13px;
+    padding-top: 20px;
+}
+
+main .container .nike .container a {
+    padding-top: 15px;
+}
+
+main .container .container .logo-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: inherit;
+}
+
+main .container .gourment .container a {
+    letter-spacing: 19px;
+    margin-right: -19px;
+    padding-top: 18px;
+}
+
+main .container .gourment .container .logo-block {
+    background: url("../static/pic/gourmet-logo.png") no-repeat;
+    background-size: contain;
+    height: 150px;
+    width: auto;
+}
+
+main .container .carhartt .container .logo-block {
+    background: url("../static/pic/carhartt-logo.png") no-repeat;
+    background-size: contain;
+    height: 82px;
+    width: auto;
+}
+
+main .container .adidas .container .logo-block {
+    background: url("../static/pic/adidas-logo.png") no-repeat;
+    background-size: contain;
+    height: 78px;
+    width: 112px;
+}
+
+main .container .deep10 .container .logo-block {
+    background: url("../static/pic/10deep-logo.png") no-repeat;
+    background-size: contain;
+    height: 56px;
+    width: 220px;
+}
+
+main .container .nike .container .logo-block {
+    background: url("../static/pic/nike-logo.png") no-repeat;
+    background-size: contain;
+    height: 82px;
+    width: 145px;
+}
+
+main .container .palace .container .logo-block {
+    background: url("../static/pic/palace-logo.png") no-repeat;
+    background-size: contain;
+    height: 78px;
+    width: 90px;
+}
