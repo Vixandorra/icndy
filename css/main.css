@@ -16,7 +16,7 @@ main .container {
     justify-content: space-between;
     align-content: space-between;
     flex-wrap: wrap;
-    height: 1120px;
+    height: 1118px;
     margin: 0 auto;
 }
 
@@ -51,8 +51,8 @@ main .container .both .carhartt {
     width: 100%;
     height: 287px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent),
-                url("../static/pic/carhartt-back.png") no-repeat 50% 90%;
-    background-size: cover;
+                url("../static/pic/carhartt-back.png") no-repeat 5% 70%;
+    background-size: 120%;
 }
 
 main .container .both .adidas {
@@ -63,7 +63,7 @@ main .container .both .adidas {
     width: 100%;
     height: 287px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent),
-                url("../static/pic/adidas-back.png") no-repeat 50% 90%;
+                url("../static/pic/adidas-back.png") no-repeat 0% 90%;
     background-size: cover;
 }
 
@@ -100,8 +100,8 @@ main .container .nike {
     align-self: flex-end;
     flex-direction: row;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), transparent),
-                url("../static/pic/nike-back.png") no-repeat 20%;
-    background-size: cover;
+                url("../static/pic/nike-back.png") no-repeat 28% 40%;
+    background-size: 205%;
 }
 
 main .container .container {
@@ -111,7 +111,7 @@ main .container .container {
     align-content: flex-end;
     margin: 0 auto;
     height: 92%;
-    width: 82%;
+    width: 82.8%;
 }
 
 main .container .gourment .container {
@@ -146,6 +146,15 @@ main .container .nike .container a {
     padding-top: 15px;
 }
 
+main .container .both .carhartt .container a {
+    padding-top: 22px;
+}
+
+
+main .container .both .adidas .container a {
+    padding-top: 20px;
+}
+
 main .container .container .logo-block {
     display: flex;
     flex-direction: column;
@@ -169,7 +178,7 @@ main .container .gourment .container .logo-block {
 main .container .carhartt .container .logo-block {
     background: url("../static/pic/carhartt-logo.png") no-repeat;
     background-size: contain;
-    height: 82px;
+    height: 75px;
     width: auto;
 }
 

@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-flow: row wrap;
+    width: 100%;
+    height: 796px;
+}
+
+footer .address {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 116px;
+}
