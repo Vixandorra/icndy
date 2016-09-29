@@ -46,11 +46,12 @@ li {
     color: #f84545;
 }
 
-.black {
-    color: #000;
+.black a {
+    color: #000000;
 }
 
 .container {
     width: 88.28760%;
+    justify-content: space-between;
 }
 
