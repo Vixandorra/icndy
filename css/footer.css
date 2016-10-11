@@ -19,8 +19,9 @@ footer .address {
 
 footer .address .container {
     flex-direction: row;
-    align-content: center;
     justify-content: space-between;
+    align-content: flex-start;
+
 }
 
 footer .address .menu {
@@ -28,7 +29,6 @@ footer .address .menu {
     flex-direction: row;
     justify-content: flex-start;
     width: auto;
-    font-family: ProximaNova-semibold;
     margin: 0 auto;
 }
 
@@ -38,7 +38,7 @@ footer .address .menu li {
     position: relative;
     margin: 47px 28px;
     float: left;
-    font-size: 0.9em;
+    font-size: 0.95em;
     letter-spacing: 5px;
     height: 100%;
 }
@@ -62,49 +62,48 @@ footer .address .social {
     display: inline-flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-content: center;
-    height: 100%;
-    width: 20%;
+    width: 33%; /* 410px */
     margin: 0 auto;
 }
 
 footer .address .social li {
     display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
     position: relative;
-    justify-content: flex-end;s
     margin: 25px 28.5px;
     font-size: 0.9em;
     letter-spacing: 5px;
+    width: 5%;
+    height: 100%;
 }
 
 footer .address .social li:nth-child(1) a {
     display: flex;
     justify-content: center;
     align-content: center;
-    content: "";
+    content: url("../static/pic/IG.png");
     height: 22px;
-    width: auto;
-    background: url("../static/pic/IG.png") no-repeat;
-    background-size: contain;
+    width: 22px;
+    z-index: 999;
 }
 
 footer .address .social li:nth-child(2) a {
     display: flex;
     justify-content: center;
-    content: "";
+    content: url("../static/pic/FB.png");
     height: 26px;
-    width: auto;
-    background: url("../static/pic/FB.png") no-repeat;
+    width: 15px;
+    background:  no-repeat;
     background-size: contain;
 }
 
 footer .address .social li:nth-child(3) a {
     display: flex;
     justify-content: center;
-    content: "";
+    content: url("../static/pic/TWTR.png");
     height: 20px;
-    width: auto;
-    background: url("../static/pic/TWTR.png") no-repeat;
+    width: 28px;
     background-size: contain;
 }
 
